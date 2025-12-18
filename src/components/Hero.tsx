@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
             <div className={`transform transition-all duration-1000 ease-out ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-[0.9] tracking-tight">
+              <h1 className="text-3xl leading-tight md:text-5xl md:leading-[0.9] lg:text-6xl xl:text-7xl font-bold text-white mb-6 tracking-tight">
                 Transform Your Ride<br />
                 <span className="text-gray-300">with Baker's Auto Spa</span>
               </h1>
@@ -141,7 +141,7 @@ const Hero: React.FC = () => {
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}>
             {/* Statistics Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8 mb-8 max-w-4xl mx-auto">
               <Statistic
                 number={5}
                 label="Years Experience"
